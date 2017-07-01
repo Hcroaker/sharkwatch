@@ -1,0 +1,120 @@
+@import "https://fonts.googleapis.com/css?family=Ubuntu";
+
+.bg{
+  background-color: #f5f5f5;
+}
+
+.title{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top:8vh;
+  font-size: 35px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.adminHd{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top:55.5vh;
+  font-size: 11px;
+}
+
+.email{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top:40vh;
+  width: 40vh;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  text-indent: 10px;
+}
+
+.password{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top:49vh;
+  width: 40vh;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  text-indent: 10px;
+}
+
+.adminBtn{
+  position: absolute;
+  margin-left: 8vh;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 19.5vh;
+  height: 65px;
+  top: 60vh;
+  background-color: #D24D57;
+  box-shadow: 0px 0px 1px black;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
+
+.signupBtn{
+  position: absolute;
+  margin-left: auto;
+  margin-right: 7vh;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 19.5vh;
+  height: 65px;
+  top: 60vh;
+  background-color: #D24D57;
+  box-shadow: 0px 0px 1px black;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
+
+.generalHd{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top:82vh;
+  font-size: 15px;
+}
+
+.generalBtn{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 40vh;
+  height: 65px;
+  top: 71vh;
+  background-color: #3498db;
+  box-shadow: 0px 0px 1px black;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
