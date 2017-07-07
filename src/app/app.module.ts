@@ -10,6 +10,20 @@ import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { AregPage } from '../pages/areg/areg';
 
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { AngularFireAuthModule } from 'angularfire2/auth';
+
+
+export const firebaseConfig = {
+  apiKey: "AIzaSyDbgE1RpmqKS8dn1FEThHbfSOqGXhQfQzY",
+  authDomain: "sharkwatch-93c9d.firebaseapp.com",
+  databaseURL: "https://sharkwatch-93c9d.firebaseio.com",
+  storageBucket: "",
+  messagingSenderId: '<513315073826>'
+};
+
+
 
 @NgModule({
   declarations: [
@@ -20,7 +34,10 @@ import { AregPage } from '../pages/areg/areg';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule,
+    AngularFireAuthModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
