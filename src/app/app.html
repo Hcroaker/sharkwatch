@@ -1,1 +1,20 @@
-<ion-nav [root]="rootPage"></ion-nav>
+
+<ion-menu [content]="mycontent">
+  <ion-header>
+    <ion-navbar color="primary">
+      <img src="https://media1.giphy.com/media/5B4GGBtESVB8A/200.webp#0-grid4" width="40px" style="display:inline-block" height="40px">
+    </ion-navbar>
+
+  </ion-header>
+
+
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        <button ion-item (click)="profile()">Profile</button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mycontent [root]="rootPage"></ion-nav>
