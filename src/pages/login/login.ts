@@ -21,6 +21,7 @@ export class LoginPage {
        this.user = user;
        if(user){
          console.log(user)
+         
          this.navCtrl.setRoot(HomePage);
        }
      })

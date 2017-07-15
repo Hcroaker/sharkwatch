@@ -13,6 +13,15 @@ export class HomePage {
 
   constructor(public navCtrl: NavController, private afAuth: AngularFireAuth) {
 
+    afAuth.authState.subscribe(user => {
+      this.user = user;
+      if(user){
+        console.log(user)
+      }
+    })
+
   }
+
+
 
 }
